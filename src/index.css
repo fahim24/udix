@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bgBlue {
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%), #381ddb;
+}
+
+.bgTopimg {
+	background: url("./assets/bg1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.1;
+}
+
+.shadow1 {
+	/* img */
+	box-shadow: 0px 20px 60px 0px rgba(34, 34, 34, 0.2);
+}
+.divider {
+	background: linear-gradient(
+		270deg,
+		rgba(255, 163, 163, 0) 0%,
+		#ffa3a3 49.48%,
+		rgba(255, 163, 163, 0) 100%
+	);
+}
+.shadow2 {
+	text-shadow: 0px 2px 0px rgba(34, 34, 34, 0.1);
+}
+
+.shadow3 {
+	box-shadow: 0px 10px 30px 0px rgba(56, 29, 219, 0.2);
+}
+.shadow4 {
+	filter: drop-shadow(0px 10px 40px rgba(34, 34, 34, 0.15));
+}
+.shadow5 {
+	filter: drop-shadow(0px 20px 100px rgba(34, 34, 34, 0.15));
+}
+.shadow6 {
+	box-shadow: 0px 10px 30px 0px rgba(56, 29, 219, 0.2);
+}
+.grad1 {
+	background: linear-gradient(270deg, rgba(34, 34, 34, 0.03) 0%, rgba(34, 34, 34, 0) 50%);
+}
+.grad2 {
+	background: linear-gradient(90deg, rgba(34, 34, 34, 0.03) 0%, rgba(34, 34, 34, 0) 50%);
+}
