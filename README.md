@@ -9,3 +9,4 @@
 - Reactjs
 - TailWindCSS
 - ReactSlick
+- ant design

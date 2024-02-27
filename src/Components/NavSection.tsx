@@ -39,7 +39,7 @@ const NavSection = () => {
 					<img src={Logo} alt="Logo" />
 				</a>
 				<button
-					className="block md:hidden uppercase text-white border border-solid border-white py-2 px-4"
+					className="block md:hidden uppercase text-white border border-solid border-white hover:opacity-90 py-2 px-4"
 					title="Open/Close nav menu"
 					onClick={toggleMenu}
 				>

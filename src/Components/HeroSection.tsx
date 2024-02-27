@@ -21,8 +21,8 @@ const HeroSection = () => {
 						while letting you use the tools you love.
 					</p>
 				</div>
-				<button className="flex item-start gap-2.5 justify-center" title="Read more">
-					<p className="text-ClRed hover:text-white font-bold">Read more</p>
+				<button className="flex item-start gap-2.5 justify-center hover:text-lg" title="Read more">
+					<p className="text-ClRed  font-bold">Read more</p>
 					<img src={Down} alt="Down Icon" />
 				</button>
 			</div>
@@ -56,7 +56,7 @@ const HeroSection = () => {
 						/>
 					</div>
 					<button
-						className="bg-CBlue px-6 py-3 text-white hover:text-ClRed shadow3 font-bold"
+						className="bg-CBlue px-6 py-3 text-white hover:text-ClRed shadow3 font-bold hover:opacity-90"
 						title="Sign up"
 					>
 						Sign up
