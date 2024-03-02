@@ -17,7 +17,7 @@ const MySlider = () => {
 		infinite: true,
 		slidesToShow: 4,
 		slidesToScroll: 1,
-		autoplay: false,
+		autoplay: true,
 		pauseOnHover: true,
 		speed: 2000,
 		autoplaySpeed: 2000,
@@ -44,7 +44,7 @@ const MySlider = () => {
 		],
 	};
 	return (
-		<div id="mySlider" className="px-8 lg:px-20 mt-16 md:mt-24 lg:mt-36 slider-container">
+		<div id="mySlider" className="px-8 lg:px-20 mt-16 md:mt-24 lg:mt-36 relative slider-container">
 			<Slider {...settings}>
 				<>
 					<div className="bg-CDark03 hover:bg-CDark2 px-8 py-4 w-4/5 mx-auto ">
